@@ -131,11 +131,11 @@ getifrow(const char *ifname)
 // ----------------------------
 
 /*
- * This small program retrives the every "interval"
+ * This small program retrives every "interval"
  * seconds the bytes send over "interface" and
  * breaks them down to a bytes per second basis.
  *
- * Usage: :/program file interval interface
+ * Usage: ./program file interval interface
  *  - file:      File to save the data to.
  *  - interval:  Interval of data retrival in seconds.
  *  - interface: Network interface to retrive data from.
